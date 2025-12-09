@@ -5,7 +5,7 @@ body {
     font-size: 16px;
     line-height: 1.6;
     list-style: none;
-      background-color:#F2E5D5;
+    background-color:#F2E5D5;
 }
 .btn {
     list-style: none;
@@ -22,7 +22,6 @@ h1{
 }
 
 .navbar{
-    background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.5);
 }
 .nav-link {
@@ -41,10 +40,14 @@ h1{
 .navbar-brand:hover{
     color: #baa994;
 }
+.navbar-toggler{
+    background-color: #E3CFB6;
+}
 .navbar-toggler:hover {
     color:#baa994;
 
 }
+
 
 header {
     background-image: url(../images/restau.jpg);
@@ -52,6 +55,12 @@ header {
     background-position: center;
     background-attachment: fixed;
     height: 600px;
+}
+
+@media (min-width: 768px) {
+    header {
+        height: 550px;
+    }
 }
 #about {
     background-color: #8B2E1F;
@@ -97,9 +106,8 @@ hr {
 
 iframe{
     background-color: #E3CFB6;
-    width:550px;
-    height:450px;
-    
+    width:100%;
+    height:300px;
 }
 .maps {
     background-color: #E3CFB6;
