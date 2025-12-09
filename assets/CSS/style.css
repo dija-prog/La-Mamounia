@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+body {
+    font-family: 'poppins', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    list-style: none;
+      background-color:#F2E5D5;
+}
+.btn {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+h1{
+    color: #8B2E1F;
+   
+}
+
+.navbar{
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.nav-link {
+    color: #E3CFB6;
+}
+.nav-link:hover{
+    color: #baa994;
+}
+.navbar-brand {
+    color: #E3CFB6;
+    font-size: large;
+    font-weight: bolder;
+    font-family:cursive;
+
+}
+.navbar-brand:hover{
+    color: #baa994;
+}
+.navbar-toggler:hover {
+    color:#baa994;
+
+}
+
+header {
+    background-image: url(../images/restau.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 600px;
+}
+#about {
+    background-color: #8B2E1F;
+    color: #E3CFB6;
+}
+
+#carte {
+ 
+    margin: 40px;
+    padding: 30px;
+
+}
+
+#carte img {
+    width:100%;          
+    max-width: 100%;    
+    height: auto;         
+    border-radius: 10px ;  
+    padding: 20px;   
+    display: block; 
+}
+
+.btn-color {
+    background-color: #E3CFB6;
+}
+#events {
+    background-color: #8B2E1F;
+    color: #E3CFB6;
+    border-radius: 10% 0% 0% 0% ;
+    padding: 40px;
+}
+hr {
+    color: #8B2E1F;
+}
+#service {
+    background-color: #F2E5D5;
+    padding: 20px;
+}
+
+#service li {
+    list-style-type:disc;
+}
+
+iframe{
+    background-color: #E3CFB6;
+    width:550px;
+    height:450px;
+    
+}
+.maps {
+    background-color: #E3CFB6;
+}
+
+footer {
+    background-color: #8B2E1F;
+    color: #E3CFB6;
+}
+
